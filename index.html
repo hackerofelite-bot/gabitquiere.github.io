@@ -140,6 +140,90 @@
     <!-- JavaScript -->
     <script src="script.js"></script>
 
+</body><!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Una carta para An ♥</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="entrance-page">
+
+    <div class="floating-hearts"></div>
+
+    <main class="entrance">
+
+        <div class="envelope-container" id="envelope">
+
+            <div class="envelope">
+
+                <!-- CARTA DENTRO DEL SOBRE -->
+
+                <div class="letter-inside">
+
+                    <span class="small-title">
+                        UNA PEQUEÑA PREGUNTA
+                    </span>
+
+                    <h1>
+                        ¿Dónde nos conocimos?
+                    </h1>
+
+                    <div class="ornament">
+                        ♥
+                    </div>
+
+                    <p>
+                        Escribe la respuesta para abrir nuestra carta.
+                    </p>
+
+                    <form id="captchaForm">
+
+                        <input
+                            type="text"
+                            id="captchaAnswer"
+                            placeholder="Escribe aquí..."
+                            autocomplete="off"
+                        >
+
+                        <button type="submit" class="button primary">
+                            Continuar ♥
+                        </button>
+
+                        <p id="captchaMessage" class="captcha-message"></p>
+
+                    </form>
+
+                </div>
+
+                <!-- PARTE DEL SOBRE -->
+
+                <div class="envelope-body"></div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-seal">
+                    ♥
+                </div>
+
+            </div>
+
+            <p class="envelope-hint">
+                Pulsa el sobre para abrirlo
+            </p>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
+</html>
 </html>
 ```
